@@ -1,14 +1,11 @@
-
 # Security Policy
 
-# Security Policies and Procedures
-
-This document outlines security procedures and general policies for the `standard`
+This document outlines security procedures and general policies for the
 project.
 
-  * [Reporting a Bug](#reporting-a-bug)
-  * [Disclosure Policy](#disclosure-policy)
-  * [Comments on this Policy](#comments-on-this-policy)
+* [Reporting a Bug](#reporting-a-bug)
+* [Remediation Policy](#disclosure-policy)
+* [Comments on this Policy](#comments-on-this-policy)
 
 ## Reporting a Bug
 
@@ -17,27 +14,25 @@ Thank you for improving the security of the project. I appreciate your efforts a
 responsible disclosure and will make every effort to acknowledge your
 contributions.
 
-Report security bugs by emailing the lead maintainer at EMAIL.
+Create an issue to report a security vulnerability. Due to the open nature
+of this project, more eyes on the code - the better. Note that as with any
+other issue, a merge request can be submitted to address the vulnerability.
 
-The lead maintainer will aim acknowledge your email within 7 days, and will aim to send a
+I will endeavour to acknowledge this within 7 days, and will aim to send a
 more detailed response within this time indicating the next steps in handling
-your report. After the initial reply to your report, the security team will
-endeavor to keep you informed of the progress towards a fix and full
-announcement, and may ask for additional information or guidance.
+your report.
 
 Report security bugs in third-party modules to the person or team maintaining
 the module.
 
-## Disclosure Policy
+## Remediation Policy
 
-When the security team receives a security bug report, they will assign it to a
-primary handler. This person will coordinate the fix and release process,
-involving the following steps:
+ Coordinate the fix and release process, involving the following steps:
 
-  * Confirm the problem and determine the affected versions.
-  * Audit code to find any potential similar problems.
-  * Prepare fixes for all releases still under maintenance. These fixes will be
-    released as fast as possible to npm.
+* Confirm the problem and determine the affected versions.
+* Audit code to find any potential similar problems.
+* Prepare fixes for all releases still under maintenance. These fixes will be
+	released as fast as possible.
 
 ## Comments on this Policy
 
