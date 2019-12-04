@@ -1,7 +1,6 @@
 # Security Policy
 
-This document outlines security procedures and general policies for the
-project.
+This document outlines security procedures and general policies for the project.
 
 * [Reporting a Bug](#reporting-a-bug)
 * [Remediation Policy](#disclosure-policy)
@@ -32,7 +31,7 @@ the module.
 * Confirm the problem and determine the affected versions.
 * Audit code to find any potential similar problems.
 * Prepare fixes for all releases still under maintenance. These fixes will be
-	released as fast as possible.
+	   released as fast as possible.
 
 ## Comments on this Policy
 
