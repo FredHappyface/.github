@@ -26,12 +26,12 @@ the module.
 
 ## Remediation Policy
 
- Coordinate the fix and release process, involving the following steps:
+Coordinate the fix and release process, involving the following steps:
 
 * Confirm the problem and determine the affected versions.
 * Audit code to find any potential similar problems.
 * Prepare fixes for all releases still under maintenance. These fixes will be
-	   released as fast as possible.
+released as fast as possible.
 
 ## Comments on this Policy
 
