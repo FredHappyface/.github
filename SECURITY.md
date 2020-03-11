@@ -1,10 +1,11 @@
+<!-- omit in toc -->
 # Security Policy
 
-This document outlines security procedures and general policies for the project.
+This document outlines security procedures and general policies for this project.
 
-* [Reporting a Bug](#reporting-a-bug)
-* [Remediation Policy](#disclosure-policy)
-* [Comments on this Policy](#comments-on-this-policy)
+- [Reporting a Bug](#reporting-a-bug)
+- [Remediation Policy](#remediation-policy)
+- [Comments on this Policy](#comments-on-this-policy)
 
 ## Reporting a Bug
 
@@ -28,9 +29,9 @@ the module.
 
 Coordinate the fix and release process, involving the following steps:
 
-* Confirm the problem and determine the affected versions.
-* Audit code to find any potential similar problems.
-* Prepare fixes for all releases still under maintenance. These fixes will be
+- Confirm the problem and determine the affected versions.
+- Audit code to find any potential similar problems.
+- Prepare fixes for all releases still under maintenance. These fixes will be
 released as fast as possible.
 
 ## Comments on this Policy
