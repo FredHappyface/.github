@@ -13,5 +13,6 @@ releases, commits, tags, branches, reactions and comments are read-only.
 [delete])
 - The repository will be unregistered from Codacy (the earliest date for this is
 [unregister])
+- The repository may be un-archived (however, this is very unlikely)
 
 ========================= No Longer Supported =========================
