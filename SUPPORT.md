@@ -23,6 +23,9 @@ to free customer service.
 	- [Archived](#archived)
 		- [What this means now](#what-this-means-now)
 		- [What this means in the future](#what-this-means-in-the-future-2)
+- [Versioning Rationale](#versioning-rationale)
+	- [From 04/2020](#from-042020)
+	- [Before 04/2020](#before-042020)
 
 ## Issues
 ### Questions, Bug Reports and Feature Requests
@@ -113,3 +116,34 @@ releases, commits, tags, branches, reactions and comments are read-only.
 - The repository is scheduled for deletion after three months
 - The repository will be unregistered from Codacy and CI/CD after one month
 - The repository may be un-archived (however, this is very unlikely)
+
+
+## Versioning Rationale
+
+### From 04/2020
+Versioning is most often done as follows:
+
+```none
+FullYear.Version.BugFix
+```
+
+Inspiration is taken from Intellij versioning, calendar versioning and semantic
+versioning and aims to combine the advantages of each. Those being:
+- The year gives an indication of if the project is still actively developed
+- Multiple versions each year
+- Bugfixes are not new versions
+
+### Before 04/2020
+Versioning is most often done as follows:
+
+```none
+FullYear.Version
+```
+
+Inspiration is taken from Intellij versioning and calendar versioning and
+aims to combine the advantages of each. Those being:
+- The year gives an indication of if the project is still actively developed
+- Multiple versions each year
+
+Drawbacks:
+- Bugfixes are new versions
