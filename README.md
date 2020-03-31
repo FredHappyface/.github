@@ -44,10 +44,10 @@ Contains templates for the following issues:
 - Question
 
 ### ISSUE_TEMPLATE.md
-Help/ TODO for an issue
+Help/ TO-DO for an issue
 
 ### PULL_REQUEST_TEMPLATE.md
-Help/ TODO for a pull request
+Help/ TO-DO for a pull request
 
 ### SECURITY.md
 Information on reporting security vulnerabilities
