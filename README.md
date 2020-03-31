@@ -9,7 +9,8 @@ A repo containing the default community files for a project
 	- [CODE_OF_CONDUCT.md](#codeofconductmd)
 	- [CONTRIBUTING.md](#contributingmd)
 	- [.github/ISSUE_TEMPLATE](#githubissuetemplate)
-	- [.github/PULL_REQUEST_TEMPLATE](#githubpullrequesttemplate)
+	- [ISSUE_TEMPLATE.md](#issuetemplatemd)
+	- [PULL_REQUEST_TEMPLATE.md](#pullrequesttemplatemd)
 	- [SECURITY.md](#securitymd)
 	- [SUPPORT.md](#supportmd)
 	- [config.yaml](#configyaml)
@@ -42,7 +43,10 @@ Contains templates for the following issues:
 - Feature request
 - Question
 
-### .github/PULL_REQUEST_TEMPLATE
+### ISSUE_TEMPLATE.md
+Help/ TODO for an issue
+
+### PULL_REQUEST_TEMPLATE.md
 Help/ TODO for a pull request
 
 ### SECURITY.md

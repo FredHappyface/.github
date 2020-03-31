@@ -2,6 +2,11 @@
 All major and minor version changes will be documented in this file. Details of
 patch-level version changes can be found in [commit messages](../../commits/master).
 
+## 2020.1.1 - 2020/03/31
+- Previous broke issue templates (personal account only?) so added
+ISSUE_TEMPLATE.md back
+- Moved PULL_REQUEST_TEMPLATE.md to /
+
 ## 2020.1 - 2020/03/31
 - Hopefully fixed the issue templates stuff
 - Updated readme
