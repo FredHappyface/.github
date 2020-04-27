@@ -2,6 +2,10 @@
 All major and minor version changes will be documented in this file. Details of
 patch-level version changes can be found in [commit messages](../../commits/master).
 
+## 2020.2 - 2020/04/27
+- Elaborate on the support process and versioning rationale.
+- Minor tweaks and improvements
+
 ## 2020.1.1 - 2020/03/31
 - Previous broke issue templates (personal account only?) so added
 ISSUE_TEMPLATE.md back

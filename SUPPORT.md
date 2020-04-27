@@ -6,7 +6,9 @@ Hello!
 Thank you for using this project, I hope it is of use to you. Please be aware
 that those involved with the project often do so for fun along with other
 commitments (such as work, family, etc) and you are therefore not entitled
-to free customer service.
+to free customer service (that is not to say that contributions/ issues
+and questions are not welcome - more reminding you that project maintainers are
+well within their rights to prioritize other issues).
 
 - [Issues](#issues)
 	- [Questions, Bug Reports and Feature Requests](#questions-bug-reports-and-feature-requests)
@@ -20,6 +22,7 @@ to free customer service.
 	- [Regular Support](#regular-support)
 		- [What this means](#what-this-means-1)
 		- [What this means in the future](#what-this-means-in-the-future-1)
+		- [Reduce the chance of a project being archived](#reduce-the-chance-of-a-project-being-archived)
 	- [Archived](#archived)
 		- [What this means now](#what-this-means-now)
 		- [What this means in the future](#what-this-means-in-the-future-2)
@@ -31,16 +34,23 @@ to free customer service.
 ### Questions, Bug Reports and Feature Requests
 
 Please see https://github.com/FredHappyface/.github/blob/master/ISSUE_TEMPLATE.md
-for more information on how best to structure any issues.
+for more information on how best to structure any issues. Please be sure to
+read through existing issues before creating your own and provide enough
+information, issues like "it doesn't work" will be closed.
 
 ## Contributions - i.e. Supporting Development
 
 Contributions are certainly welcome. Please be aware that they are not
-guaranteed to be accepted.
+guaranteed to be accepted. Be sure to open an issue asking if the pull request
+would be accepted to avoid/ reduce the frustration that may be caused in the
+case of putting in significant time and effort for a contribution not to be
+accepted.
 See [CONTRIBUTING.md](/CONTRIBUTING.md) on how to contribute.
 
 
 ## Support Process
+
+Some projects may start at an experimental stage (see below for more information)
 
 ```none
 Experimental -> Regular Support -> Archived -> Deleted
@@ -49,6 +59,10 @@ Experimental -> Regular Support -> Archived -> Deleted
 ```
 
 Or
+
+Many projects will skip the experimental stage and you can therefore expect an
+increased level of support (or at the very minimum some notice before the
+project is removed if it reaches the end of support)
 
 ```none
 Regular Support -> Archived -> Deleted
@@ -94,13 +108,26 @@ This is best described as the beta and maintenance stages of a project
 
 #### What this means
 - The project behaves exactly as one may expect. At this stage contributions are
-very welcome
+very welcome.
 
 #### What this means in the future
 One of two things will happen
 - The repository will continue to exist in this state (Yay!)
 - The repository reaches the end of support and moves to an archived state
 
+#### Reduce the chance of a project being archived
+Projects that seemingly have little interest are most likely to be archived. I
+use a few mechanisms to determine this (each with their merits and drawbacks)
+- Number of GitHub stars and forks
+- Number of downloads/ installs (for instance pypi.org installs)
+- Reviews
+- Project traffic as calculated by Python.ActiveGithub
+
+This is because I tend to have lots of project ideas (again some are more useful
+than others) and limited time to maintain these.
+
+Essentially, if you do find a project to be useful, engage with it in some
+measurable way and it will stick around for a good long time.
 
 ### Archived
 
@@ -121,6 +148,8 @@ releases, commits, tags, branches, reactions and comments are read-only.
 ## Versioning Rationale
 
 ### From 04/2020
+[![CalVer](https://img.shields.io/badge/calver-YYYY.Minor.Micro-22bfda.svg?style=for-the-badge)](https://pypi.org/project/[project-name]/)
+
 Versioning is most often done as follows:
 
 ```none
@@ -133,7 +162,17 @@ versioning and aims to combine the advantages of each. Those being:
 - Multiple versions each year
 - Bugfixes are not new versions
 
+Notable projects using this scheme (according to https://calver.org/users.html):
+- Unity
+- PyCharm
+- Spring Cloud
+
+A few other popular projects such as Python PIP use a slightly different
+version of this with the short year.
+
 ### Before 04/2020
+[![CalVer](https://img.shields.io/badge/calver-YYYY.Minor-22bfda.svg?style=for-the-badge)](https://pypi.org/project/[project-name]/)
+
 Versioning is most often done as follows:
 
 ```none
@@ -147,3 +186,6 @@ aims to combine the advantages of each. Those being:
 
 Drawbacks:
 - Bugfixes are new versions
+
+It should be noted that no projects found on https://calver.org/users.html use
+this form of versioning.

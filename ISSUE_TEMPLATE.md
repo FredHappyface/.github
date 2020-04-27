@@ -57,7 +57,7 @@ outcome including screenshots where appropriate
 - [ ] I have read the comment above and have completed each step
 - [ ] I have filled in each heading below
 
-### Is your feature request related to a problem? Please describe.
+### Please describe the problem that you are trying to solve
 <!--
 A clear and concise description of what the problem is. Ex. I'm always
 frustrated when [...]

@@ -29,7 +29,7 @@ Copy this to the readme of a project that is to be archived and set the dates
 
 ### CHANGELOG.md
 Copy this to a project and fill in the blanks. Be sure to update this when you
-make sufficiently large changes to your project
+make sufficiently large changes to your project.
 
 ### CODE_OF_CONDUCT.md
 Contains the code of conduct for all of my repos
@@ -54,13 +54,13 @@ Information on reporting security vulnerabilities
 
 ### SUPPORT.md
 Provides information on how my repos are supported and on the version naming
-conventions
+conventions.
 
 ### config.yaml
-Configurations for ProBot Request Info
+Configurations for ProBot Request Info.
 
 ### stale.yaml
-Configurations for ProBot Stale
+Configurations for ProBot Stale.
 
 ## Community Files
 ### Licence
