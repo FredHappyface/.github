@@ -1,76 +1,126 @@
 <!-- omit in toc -->
-# Contributor Covenant Code of Conduct
+# Code of Conduct
 
-- [Our Pledge](#our-pledge)
-- [Our Standards](#our-standards)
-- [Our Responsibilities](#our-responsibilities)
-- [Scope](#scope)
-- [Enforcement](#enforcement)
-- [Attribution](#attribution)
+- [Why have a Code of Conduct?](#why-have-a-code-of-conduct)
+- [Where does the Code of Conduct apply?](#where-does-the-code-of-conduct-apply)
+- [Values](#values)
+- [Unwelcome behaviour](#unwelcome-behaviour)
+- [Moderation](#moderation)
+- [Reporting issues](#reporting-issues)
+- [Summary](#summary)
+- [Acknowledgements](#acknowledgements)
 
-## Our Pledge
+## Why have a Code of Conduct?
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to make participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, sex characteristics, gender identity and expression,
-level of experience, education, socioeconomic status, nationality, personal
-appearance, race, religion, or sexual identity and orientation.
+Online communities include people from many backgrounds. The *Project*
+contributors are committed to providing a friendly, safe and welcoming
+environment for all, regardless of age, disability, gender, nationality,
+ethnicity, religion, sexuality, or other such personal characteristics.
 
-## Our Standards
+The first goal of the Code of Conduct is to specify a minimum standard of
+behaviour so that people with different social values and communication styles
+can talk about *The Project* effectively, productively, and respectfully.
 
-Examples of behaviour that contributes to creating a positive environment
-include:
+The second goal is to provide a mechanism for resolving conflicts in the
+community if/when they arise.
 
-- Using welcoming and inclusive language
-- Being respectful of differing viewpoints and experiences
-- Gracefully accepting constructive criticism
-- Focusing on what is best for the community
-- Showing empathy towards other community members
+The third goal of the Code of Conduct is to make our community welcoming to
+people from different backgrounds. Diversity is critical for *The Project* to be
+successful, it needs contributors and users from all backgrounds.
 
-Examples of unacceptable behaviour by participants include:
+With that said, a healthy community must allow for disagreement and debate. The
+Code of Conduct is not a mechanism for people to silence others with whom they
+disagree.
 
-- The use of sexualised language or imagery and unwelcome sexual attention or
-	advances
-- Trolling, insulting/derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information, such as a physical or electronic
-	address, without explicit permission
-- Other conduct which could reasonably be considered inappropriate in a
-	professional setting
+## Where does the Code of Conduct apply?
 
-## Our Responsibilities
+If you participate in or contribute to the *Project* ecosystem in any way, you
+are encouraged to follow the Code of Conduct while doing so.
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behaviour and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behaviour.
+Explicit enforcement of the Code of Conduct applies to the *Project* GitHub
+project and code reviews.
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviours that they deem inappropriate,
-threatening, offensive, or harmful.
+## Values
 
-## Scope
+These are the values to which people in the *Project* should aspire.
 
-This Code of Conduct applies within all project spaces, and it also applies when
-an individual is representing the project or its community in public spaces.
-Examples of representing a project or community include using an official
-project e-mail address, posting via an official social media account, or acting
-as an appointed representative at an online or offline event. Representation of
-a project may be further defined and clarified by project maintainers.
+- Be friendly and welcoming
+- Be patient
+  - Remember that people have varying communication styles and that not everyone
+    is using their native language. (Meaning and tone can be lost in translation.)
+- Be thoughtful
+  - Productive communication requires effort. Think about how your words will be
+    interpreted.
+  - Remember that sometimes it is best to refrain entirely from commenting.
+- Be respectful
+  - In particular, respect differences of opinion.
+- Be charitable
+  - Interpret the arguments of others in good faith, do not seek to disagree.
+  - When we do disagree, try to understand why.
+- Avoid destructive behavior:
+  - Derailing: stay on topic; if you want to talk about something else, start a
+    new conversation.
+  - Unconstructive criticism: don't merely decry the current state of affairs;
+    offer, or at least solicit, suggestions as to how things may be improved.
+  - Snarking (pithy, unproductive, sniping comments)
+  - Discussing potentially offensive or sensitive issues unless directly
+    technically relevant; this all too often leads to unnecessary conflict.
+  - Microaggressions: brief and commonplace verbal, behavioural and
+    environmental indignities that communicate hostile, derogatory or negative
+	slights and insults to a person or group.
 
-## Enforcement
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
+People are complicated. You should expect to be misunderstood and to misunderstand others; when this inevitably occurs, resist the urge to be defensive or assign blame. Try not to take offence where no offence was intended. Give people the benefit of the doubt. Even if the intent was to provoke, do not rise to it. It is the responsibility of *all parties* to de-escalate conflict when it arises.
 
-## Attribution
+## Unwelcome behaviour
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
+These actions are explicitly forbidden in *Project* spaces:
 
-[homepage]: https://www.contributor-covenant.org
+- Insulting, demeaning, hateful, or threatening remarks.
+- Discrimination based on age, disability, gender, nationality, ethnicity,
+  religion, sexuality, or other such personal characteristic.
+- Bullying or systematic harassment.
+- Unwelcome sexual advances.
+- Incitement to any of these.
 
-For answers to common questions about this code of conduct, see
-https://www.contributor-covenant.org/faq
+## Moderation
+
+The *Project* spaces are not free speech venues; they are for discussion about
+the *Project*.
+
+When using the *Project* spaces you should act in the spirit of the values.
+If you conduct yourself in a way that is explicitly forbidden by the CoC, you
+will be warned and asked to stop. If you do not stop, you will be removed from
+our community spaces temporarily. Repeated, wilful breaches of the CoC will
+result in a permanent ban.
+
+## Reporting issues
+
+The *Project* maintainers are responsible for handling conduct-related issues.
+Their goal is to de-escalate conflicts and try to resolve issues to the
+satisfaction of all parties.
+
+If you encounter a conduct-related issue, you should report it to the
+maintainers by opening an issue
+
+**Note that the goal of the Code of Conduct and the maintainers is to resolve
+conflicts in the most harmonious way possible.** We hope that in most cases
+issues may be resolved through polite discussion and mutual agreement. Bans
+and other forceful measures are to be employed only as a last resort.
+
+Changes to the Code of Conduct should be proposed as pull requests.
+
+## Summary
+
+- Treat everyone with respect and kindness.
+- Be thoughtful in how you communicate.
+- Don’t be destructive or inflammatory.
+- If you encounter an issue, please raise this with the maintainers.
+
+## Acknowledgements
+
+This document is based on the
+[Go Code of Conduct](https://web.archive.org/web/20180403092005/https://golang.org/conduct),
+which in turn has parts derived from the Code of Conduct documents of the Django,
+FreeBSD, and Rust projects.
+
+This documented is licensed under the Creative Commons Attribution 3.0 License.

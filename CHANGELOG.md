@@ -2,6 +2,10 @@
 All major and minor version changes will be documented in this file. Details of
 patch-level version changes can be found in [commit messages](../../commits/master).
 
+## 2020.3 - 2020/07/20
+- Update the code of conduct
+- Create `RATIONALE.md` for information on versioning and code style
+
 ## 2020.2 - 2020/04/27
 - Elaborate on the support process and versioning rationale.
 - Minor tweaks and improvements

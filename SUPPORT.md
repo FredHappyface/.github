@@ -27,8 +27,6 @@ well within their rights to prioritize other issues).
 		- [What this means now](#what-this-means-now)
 		- [What this means in the future](#what-this-means-in-the-future-2)
 - [Versioning Rationale](#versioning-rationale)
-	- [From 04/2020](#from-042020)
-	- [Before 04/2020](#before-042020)
 
 ## Issues
 ### Questions, Bug Reports and Feature Requests
@@ -147,45 +145,10 @@ releases, commits, tags, branches, reactions and comments are read-only.
 
 ## Versioning Rationale
 
-### From 04/2020
-[![CalVer](https://img.shields.io/badge/calver-YYYY.Minor.Micro-22bfda.svg?style=for-the-badge)](https://pypi.org/project/[project-name]/)
-
 Versioning is most often done as follows:
 
 ```none
 FullYear.Version.BugFix
 ```
 
-Inspiration is taken from Intellij versioning, calendar versioning and semantic
-versioning and aims to combine the advantages of each. Those being:
-- The year gives an indication of if the project is still actively developed
-- Multiple versions each year
-- Bugfixes are not new versions
-
-Notable projects using this scheme (according to https://calver.org/users.html):
-- Unity
-- PyCharm
-- Spring Cloud
-
-A few other popular projects such as Python PIP use a slightly different
-version of this with the short year.
-
-### Before 04/2020
-[![CalVer](https://img.shields.io/badge/calver-YYYY.Minor-22bfda.svg?style=for-the-badge)](https://pypi.org/project/[project-name]/)
-
-Versioning is most often done as follows:
-
-```none
-FullYear.Version
-```
-
-Inspiration is taken from Intellij versioning and calendar versioning and
-aims to combine the advantages of each. Those being:
-- The year gives an indication of if the project is still actively developed
-- Multiple versions each year
-
-Drawbacks:
-- Bugfixes are new versions
-
-It should be noted that no projects found on https://calver.org/users.html use
-this form of versioning.
+See [RATIONALE](https://github.com/FredHappyface/.github/blob/master/RATIONALE.md) for more information
