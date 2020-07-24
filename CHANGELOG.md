@@ -2,6 +2,11 @@
 All major and minor version changes will be documented in this file. Details of
 patch-level version changes can be found in [commit messages](../../commits/master).
 
+## 2020.4 - 2020/07/24
+- Add `CHANGELOG_TEMPLATE.md`
+- Add a section on enforcing the style guide to `RATIONALE.md`
+- Update `README.md` with information on newly added files
+
 ## 2020.3 - 2020/07/20
 - Update the code of conduct
 - Create `RATIONALE.md` for information on versioning and code style
