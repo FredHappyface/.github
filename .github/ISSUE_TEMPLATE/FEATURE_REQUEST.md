@@ -1,9 +1,9 @@
 ---
 name: "Feature request"
 about: Request a new feature to be added
-title: 'Feature'
-labels: ''
-assignees: ''
+title: 'Feature: <title>'
+labels: 'enhancement'
+assignees: 'fredhappyface'
 
 ---
 

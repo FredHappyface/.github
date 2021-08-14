@@ -1,9 +1,9 @@
 ---
 name: Question
 about: Ask a question
-title: 'Question'
-labels: ''
-assignees: ''
+title: 'Question: <title>'
+labels: 'question'
+assignees: 'fredhappyface'
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 name: "Bug report"
-about: Report an issue with this software
-title: 'Bug'
-labels: ''
-assignees: ''
+about: Report an issue with this project
+title: 'Bug: <title>'
+labels: 'bug'
+assignees: 'fredhappyface'
 ---
 
 <!--
