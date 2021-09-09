@@ -5,8 +5,6 @@ The rationale acts as a guide to various processes regarding projects such as
 the versioning scheme and the programming styles used.
 
 - [Versioning](#versioning)
-	- [From 04/2020](#from-042020)
-	- [Before 04/2020](#before-042020)
 - [Programming Style Guide](#programming-style-guide)
 	- [General](#general)
 	- [Python](#python)
@@ -19,8 +17,6 @@ the versioning scheme and the programming styles used.
 
 ## Versioning
 
-
-### From 04/2020
 [![CalVer](https://img.shields.io/badge/calver-YYYY.Minor.Micro-22bfda.svg?style=for-the-badge)](https://pypi.org/project/[project-name]/)
 
 Versioning is most often done as follows:
@@ -42,27 +38,6 @@ Notable projects using this scheme (according to https://calver.org/users.html):
 
 A few other popular projects such as Python PIP use a slightly different
 version of this with the short year.
-
-### Before 04/2020
-[![CalVer](https://img.shields.io/badge/calver-YYYY.Minor-22bfda.svg?style=for-the-badge)](https://pypi.org/project/[project-name]/)
-
-Versioning is most often done as follows:
-
-```none
-FullYear.Version
-```
-
-Inspiration is taken from Intellij versioning and calendar versioning and
-aims to combine the advantages of each. Those being:
-- The year gives an indication of if the project is still actively developed
-- Multiple versions each year
-
-Drawbacks:
-- Bugfixes are new versions
-
-It should be noted that no projects found on https://calver.org/users.html use
-this form of versioning.
-
 
 ## Programming Style Guide
 
@@ -157,7 +132,7 @@ e.g. `PascalCaseException`
 
 ### Python
 
-Use `bandit`, `pylint` and `yapf` with the following settings:
+Use `bandit`, `pylint` and `black` with the following settings:
 
 #### Native
 bandit
@@ -168,12 +143,12 @@ python -m bandit -li --exclude **/test_*.py -s B322 -r -q .
 
 pylint
 ```cmd
-pylint --disable='pointless-string-statement, superfluous-parens, bad-continuation, wrong-import-position' --indent-string="\t" --ignore-patterns=test_.*?py --argument-naming-style=camelCase --attr-naming-style=camelCase --function-naming-style=camelCase --method-naming-style=camelCase --variable-naming-style=camelCase [PROJECT_ROOT]
+pylint --disable='pointless-string-statement, superfluous-parens, bad-continuation, wrong-import-position, unsubscriptable-object, python3' --indent-string="\t" --ignore-patterns=test_.*?py --argument-naming-style=camelCase --attr-naming-style=camelCase --function-naming-style=camelCase --method-naming-style=camelCase --variable-naming-style=camelCase --load-plugins=pylint.extensions.bad_builtin,pylint.extensions.check_elif,pylint.extensions.redefined_variable_type,pylint.extensions.overlapping_exceptions,pylint.extensions.docparams,pylint.extensions.mccabe,pylint.extensions.empty_comment [PROJECT_ROOT]
 ```
 
-yapf
+black
 ```cmd
-yapf -ri --style '{ALIGN_CLOSING_BRACKET_WITH_VISUAL_INDENT: false, ALLOW_MULTILINE_LAMBDAS: true, ALLOW_MULTILINE_DICTIONARY_KEYS: true, ALLOW_SPLIT_BEFORE_DEFAULT_OR_NAMED_ASSIGNS: true, ALLOW_SPLIT_BEFORE_DICT_VALUE: false, BLANK_LINE_BEFORE_CLASS_DOCSTRING: false, BLANK_LINES_AROUND_TOP_LEVEL_DEFINITION: 2, COALESCE_BRACKETS: true, COLUMN_LIMIT: 79, CONTINUATION_ALIGN_STYLE: FIXED, CONTINUATION_INDENT_WIDTH: 0, DEDENT_CLOSING_BRACKETS: false, DISABLE_ENDING_COMMA_HEURISTIC: true, EACH_DICT_ENTRY_ON_SEPARATE_LINE: false, FORCE_MULTILINE_DICT: false, INDENT_DICTIONARY_VALUE: 0, INDENT_WIDTH: 1, INDENT_BLANK_LINES: false, INDENT_CLOSING_BRACKETS: false, JOIN_MULTIPLE_LINES: true, NO_SPACES_AROUND_SELECTED_BINARY_OPERATORS: false, SPACES_AROUND_POWER_OPERATOR: false, SPACES_AROUND_DEFAULT_OR_NAMED_ASSIGN: false, SPACES_AROUND_DICT_DELIMITERS: false, SPACES_AROUND_LIST_DELIMITERS: false, SPACES_AROUND_SUBSCRIPT_COLON: false, SPACES_AROUND_TUPLE_DELIMITERS: false, SPACES_BEFORE_COMMENT: 1, SPACE_BETWEEN_ENDING_COMMA_AND_CLOSING_BRACKET: 1, SPACE_INSIDE_BRACKETS: false, SPLIT_ARGUMENTS_WHEN_COMMA_TERMINATED: false, SPLIT_ALL_COMMA_SEPARATED_VALUES: false, SPLIT_ALL_TOP_LEVEL_COMMA_SEPARATED_VALUES: false, SPLIT_BEFORE_BITWISE_OPERATOR: false, SPLIT_BEFORE_ARITHMETIC_OPERATOR: false, SPLIT_BEFORE_CLOSING_BRACKET: false, SPLIT_BEFORE_DICT_SET_GENERATOR: true, SPLIT_BEFORE_DOT: true, SPLIT_BEFORE_EXPRESSION_AFTER_OPENING_PAREN: false, SPLIT_BEFORE_FIRST_ARGUMENT: false, SPLIT_BEFORE_LOGICAL_OPERATOR: false, SPLIT_BEFORE_NAMED_ASSIGNS: false, SPLIT_COMPLEX_COMPREHENSION: false, SPLIT_PENALTY_AFTER_OPENING_BRACKET: 10000, SPLIT_PENALTY_FOR_ADDED_LINE_SPLIT: 1000, USE_TABS: true}' .
+black -l 100 -t py37
 ```
 
 #### VSCode
@@ -198,23 +173,26 @@ yapf -ri --style '{ALIGN_CLOSING_BRACKET_WITH_VISUAL_INDENT: false, ALLOW_MULTIL
 	// Pylint
 	"python.linting.pylintUseMinimalCheckers": false,
 	"python.linting.pylintArgs": [
-		"--disable=pointless-string-statement, superfluous-parens, bad-continuation, wrong-import-position",
+		"--disable=pointless-string-statement, superfluous-parens, bad-continuation, wrong-import-position, unsubscriptable-object, python3",
 		"--indent-string=\"\t\"",
 		"--ignore-patterns=test_.*?py",
 		"--argument-naming-style=camelCase",
 		"--attr-naming-style=camelCase",
 		"--function-naming-style=camelCase",
 		"--method-naming-style=camelCase",
-		"--variable-naming-style=camelCase"
+		"--variable-naming-style=camelCase",
+		"--load-plugins=pylint.extensions.bad_builtin,pylint.extensions.check_elif,pylint.extensions.redefined_variable_type,pylint.extensions.overlapping_exceptions,pylint.extensions.docparams,pylint.extensions.mccabe,pylint.extensions.empty_comment",
 	],
 	"python.linting.pylintCategorySeverity.convention": "Warning",
 	"python.linting.pylintCategorySeverity.refactor": "Warning",
 	"python.linting.pylintEnabled": true,
-	// Yapf
-	"python.formatting.provider": "yapf",
-	"python.formatting.yapfArgs": [
-		"--style",
-		"{ALIGN_CLOSING_BRACKET_WITH_VISUAL_INDENT: false, ALLOW_MULTILINE_LAMBDAS: true, ALLOW_MULTILINE_DICTIONARY_KEYS: true, ALLOW_SPLIT_BEFORE_DEFAULT_OR_NAMED_ASSIGNS: true, ALLOW_SPLIT_BEFORE_DICT_VALUE: false, ARITHMETIC_PRECEDENCE_INDICATION: true,BLANK_LINE_BEFORE_NESTED_CLASS_OR_DEF: false, BLANK_LINE_BEFORE_MODULE_DOCSTRING: false, BLANK_LINE_BEFORE_CLASS_DOCSTRING: false, BLANK_LINES_AROUND_TOP_LEVEL_DEFINITION: 2, COALESCE_BRACKETS: true, COLUMN_LIMIT: 79, CONTINUATION_ALIGN_STYLE: FIXED, CONTINUATION_INDENT_WIDTH: 0, DEDENT_CLOSING_BRACKETS: false, DISABLE_ENDING_COMMA_HEURISTIC: true, EACH_DICT_ENTRY_ON_SEPARATE_LINE: false, FORCE_MULTILINE_DICT: false, INDENT_DICTIONARY_VALUE: 0, INDENT_WIDTH: 1, INDENT_BLANK_LINES: false, INDENT_CLOSING_BRACKETS: false, JOIN_MULTIPLE_LINES: true, NO_SPACES_AROUND_SELECTED_BINARY_OPERATORS: false, SPACES_AROUND_POWER_OPERATOR: false, SPACES_AROUND_DEFAULT_OR_NAMED_ASSIGN: false, SPACES_AROUND_DICT_DELIMITERS: false, SPACES_AROUND_LIST_DELIMITERS: false, SPACES_AROUND_SUBSCRIPT_COLON: false, SPACES_AROUND_TUPLE_DELIMITERS: false, SPACES_BEFORE_COMMENT: 1, SPACE_BETWEEN_ENDING_COMMA_AND_CLOSING_BRACKET: 1, SPACE_INSIDE_BRACKETS: false, SPLIT_ARGUMENTS_WHEN_COMMA_TERMINATED: false, SPLIT_ALL_COMMA_SEPARATED_VALUES: false, SPLIT_ALL_TOP_LEVEL_COMMA_SEPARATED_VALUES: false, SPLIT_BEFORE_BITWISE_OPERATOR: false, SPLIT_BEFORE_ARITHMETIC_OPERATOR: false, SPLIT_BEFORE_CLOSING_BRACKET: false, SPLIT_BEFORE_DICT_SET_GENERATOR: true, SPLIT_BEFORE_DOT: true, SPLIT_BEFORE_EXPRESSION_AFTER_OPENING_PAREN: false, SPLIT_BEFORE_FIRST_ARGUMENT: false, SPLIT_BEFORE_LOGICAL_OPERATOR: false, SPLIT_BEFORE_NAMED_ASSIGNS: false, SPLIT_COMPLEX_COMPREHENSION: false, SPLIT_PENALTY_AFTER_OPENING_BRACKET: 10000, SPLIT_PENALTY_FOR_ADDED_LINE_SPLIT: 1000, USE_TABS: true}"
+	// Black
+	"python.formatting.provider": "black",
+	"python.formatting.blackArgs": [
+		"-l",
+		"100",
+		"-t",
+		"py37"
 	],
 }
 ```
