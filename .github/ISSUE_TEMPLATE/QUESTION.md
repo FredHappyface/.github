@@ -10,7 +10,7 @@ assignees: 'fredhappyface'
 <!--
 # Issue template
 
-Thanks for opening an issue
+Thanks for opening an issue. Be sure to fill in the template
 
 ## Step one - Check for duplicated issues
 
@@ -25,9 +25,11 @@ causes crash' would be preferred to 'crash'
 Start the title with the type of issue: Question|Bug|Feature
 
 ## Step three - Fill out the template below
+
 Delete unused headers
 
 -->
 
 ## Question
+
 - [ ] I have read the comment above and have completed each step

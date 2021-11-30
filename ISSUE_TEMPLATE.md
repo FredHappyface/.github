@@ -10,7 +10,7 @@ assignees: ''
 <!--
 # Issue template
 
-Thanks for opening an issue
+Thanks for opening an issue. Be sure to fill in the template
 
 ## Step one - Check for duplicated issues
 
@@ -24,16 +24,16 @@ causes crash' would be preferred to 'crash'
 
 Start the title with the type of issue: Question|Bug|Feature
 
-## Step three - Fill out the template below
-Delete unused headers
+## Step three - Fill out the template below (Delete unused headers)
 
 -->
 
-
 ## Question
+
 - [ ] I have read the comment above and have completed each step
 
 ## Bug
+
 - [ ] I have read the comment above and have completed each step
 - [ ] I have filled out the system info
 - [ ] I have described the bug, filled in the expected outcome and the actual
@@ -51,26 +51,29 @@ outcome including screenshots where appropriate
 
 ### Actual outcome
 
-
-
 ## Feature
+
 - [ ] I have read the comment above and have completed each step
 - [ ] I have filled in each heading below
 
 ### Please describe the problem that you are trying to solve
+
 <!--
 A clear and concise description of what the problem is. Ex. I'm always
 frustrated when [...]
 -->
 
 ### Describe the solution you'd like
+
 <!-- A clear and concise description of what you want to happen. -->
 
 ### Describe alternatives you've considered
+
 <!--
 A clear and concise description of any alternative solutions or features
 you've considered.
 -->
 
 ### Additional context
+
 <!-- Add any other context or screenshots about the feature request here. -->
