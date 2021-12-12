@@ -1,12 +1,3 @@
----
-name: "Pull Request"
-about: Request downstream changes to code be merged to the upstream branch/ repo
-title: 'Pull Request: <title>'
-labels: 'enhancement'
-assignees: 'fredhappyface'
-
----
-
 <!-- Thank you for submitting a Pull Request. Please:
 * Read our Pull Request guidelines:
   https://github.com/FredHappyface/.github/blob/master/CONTRIBUTING.md
