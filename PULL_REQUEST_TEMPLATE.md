@@ -6,7 +6,7 @@
 * Include a description of the proposed changes and how to test them.
 -->
 
-Pull Request to be reviewd by: @FredHappyface
+Pull Request to be reviewed by: @FredHappyface
 
 ### What is the purpose of this pull request? (put an "X" next to item)
 
