@@ -48,8 +48,8 @@ A template for asking questions related to the project.
 ## .github/ISSUE_TEMPLATE/SECURITY.md
 A template for reporting security vulnerabilities in the project.
 
-## .github/PULL_REQUEST_TEMPLATE/PULL_REQUEST.md
+## PULL_REQUEST.md
 A template for submitting pull requests to the project, providing guidelines on what information to include.
 
-## .github/SECURITY/SECURITY.md
+## .github/SECURITY.md
 A document outlining the security procedures and policies for the project, including reporting security issues.
