@@ -1,126 +1,79 @@
 <!-- omit in toc -->
 # Code of Conduct
 
-- [Why have a Code of Conduct?](#why-have-a-code-of-conduct)
-- [Where does the Code of Conduct apply?](#where-does-the-code-of-conduct-apply)
+- [Why Have a Code of Conduct?](#why-have-a-code-of-conduct)
+- [Where Does the Code of Conduct Apply?](#where-does-the-code-of-conduct-apply)
 - [Values](#values)
-- [Unwelcome behaviour](#unwelcome-behaviour)
+- [Unwelcome Behaviour](#unwelcome-behaviour)
 - [Moderation](#moderation)
-- [Reporting issues](#reporting-issues)
+- [Reporting Issues](#reporting-issues)
 - [Summary](#summary)
 - [Acknowledgements](#acknowledgements)
 
-## Why have a Code of Conduct?
+## Why Have a Code of Conduct?
 
-Online communities include people from many backgrounds. The *Project*
-contributors are committed to providing a friendly, safe and welcoming
-environment for all, regardless of age, disability, gender, nationality,
-ethnicity, religion, sexuality, or other such personal characteristics.
+Our project welcomes individuals from diverse backgrounds and perspectives. To
+ensure a respectful and inclusive environment for everyone, we've established
+this Code of Conduct.
 
-The first goal of the Code of Conduct is to specify a minimum standard of
-behaviour so that people with different social values and communication styles
-can talk about *The Project* effectively, productively, and respectfully.
+The Code of Conduct serves several purposes:
 
-The second goal is to provide a mechanism for resolving conflicts in the
-community if/when they arise.
+1. To set a standard for respectful communication and collaboration among community members.
+2. To provide a framework for resolving conflicts or misunderstandings in a constructive manner.
+3. To foster a diverse and vibrant community that benefits from varied experiences and viewpoints.
 
-The third goal of the Code of Conduct is to make our community welcoming to
-people from different backgrounds. Diversity is critical for *The Project* to be
-successful, it needs contributors and users from all backgrounds.
+## Where Does the Code of Conduct Apply?
 
-With that said, a healthy community must allow for disagreement and debate. The
-Code of Conduct is not a mechanism for people to silence others with whom they
-disagree.
-
-## Where does the Code of Conduct apply?
-
-If you participate in or contribute to the *Project* ecosystem in any way, you
-are encouraged to follow the Code of Conduct while doing so.
-
-Explicit enforcement of the Code of Conduct applies to the *Project* GitHub
-project and code reviews.
+The Code of Conduct applies to all interactions within our project ecosystem.
+This includes, but is not limited to, GitHub repositories, code reviews, and
+discussions.
 
 ## Values
 
-These are the values to which people in the *Project* should aspire.
+Our community values guide our interactions and behavior:
 
-- Be friendly and welcoming
-- Be patient
-	- Remember that people have varying communication styles and that not everyone
-	is using their native language. (Meaning and tone can be lost in translation.)
-- Be thoughtful
-	- Productive communication requires effort. Think about how your words will be
-	interpreted.
-	- Remember that sometimes it is best to refrain entirely from commenting.
-- Be respectful
-	- In particular, respect differences of opinion.
-- Be charitable
-	- Interpret the arguments of others in good faith, do not seek to disagree.
-	- When we do disagree, try to understand why.
-- Avoid destructive behavior:
-	- Derailing: stay on topic; if you want to talk about something else, start a
-	new conversation.
-	- Unconstructive criticism: don't merely decry the current state of affairs;
-	offer, or at least solicit, suggestions as to how things may be improved.
-	- Snarking (pithy, unproductive, sniping comments)
-	- Discussing potentially offensive or sensitive issues unless directly
-	technically relevant; this all too often leads to unnecessary conflict.
-	- Microaggressions: brief and commonplace verbal, behavioural and
-	environmental indignities that communicate hostile, derogatory or negative
-	slights and insults to a person or group.
+- Be friendly, welcoming, and patient, considering diverse communication styles.
+- Be thoughtful and respectful in your communication, understanding the impact of your words.
+- Embrace different opinions and engage in constructive discussions.
+- Avoid destructive behaviors, such as derailing conversations or making offensive remarks.
+- Interpret others' arguments in good faith, seeking understanding even when disagreements arise.
 
-People are complicated. You should expect to be misunderstood and to misunderstand others; when this inevitably occurs, resist the urge to be defensive or assign blame. Try not to take offence where no offence was intended. Give people the benefit of the doubt. Even if the intent was to provoke, do not rise to it. It is the responsibility of *all parties* to de-escalate conflict when it arises.
+Remember that a healthy community encourages open debate while maintaining respect for one another.
 
-## Unwelcome behaviour
+## Unwelcome Behaviour
 
-These actions are explicitly forbidden in *Project* spaces:
+The following behaviors are not tolerated within our community spaces:
 
-- Insulting, demeaning, hateful, or threatening remarks.
-- Discrimination based on age, disability, gender, nationality, ethnicity,
-  religion, sexuality, or other such personal characteristic.
-- Bullying or systematic harassment.
-- Unwelcome sexual advances.
-- Incitement to any of these.
+- Insults, hate speech, or threats.
+- Discrimination based on personal characteristics.
+- Bullying, harassment, or unwelcome advances.
+- Incitement to engage in harmful activities.
 
 ## Moderation
 
-The *Project* spaces are not free speech venues; they are for discussion about
-the *Project*.
+Our community spaces prioritize respectful and productive discussions related
+to the project. If your behavior violates our Code of Conduct, you will receive
+a warning and be asked to cease the behavior. If violations continue, temporary
+or permanent removal from the community may occur.
 
-When using the *Project* spaces you should act in the spirit of the values.
-If you conduct yourself in a way that is explicitly forbidden by the CoC, you
-will be warned and asked to stop. If you do not stop, you will be removed from
-our community spaces temporarily. Repeated, wilful breaches of the CoC will
-result in a permanent ban.
+## Reporting Issues
 
-## Reporting issues
+For conduct-related concerns, the project maintainers are responsible for
+resolution. If you encounter such an issue, please report it by opening an issue.
 
-The *Project* maintainers are responsible for handling conduct-related issues.
-Their goal is to de-escalate conflicts and try to resolve issues to the
-satisfaction of all parties.
-
-If you encounter a conduct-related issue, you should report it to the
-maintainers by opening an issue
-
-**Note that the goal of the Code of Conduct and the maintainers is to resolve
-conflicts in the most harmonious way possible.** We hope that in most cases
-issues may be resolved through polite discussion and mutual agreement. Bans
-and other forceful measures are to be employed only as a last resort.
-
-Changes to the Code of Conduct should be proposed as pull requests.
+Our aim is to address issues harmoniously, fostering positive resolutions through
+discussion. Strong measures, such as bans, are considered as a last resort.
 
 ## Summary
 
 - Treat everyone with respect and kindness.
-- Be thoughtful in how you communicate.
-- Don’t be destructive or inflammatory.
-- If you encounter an issue, please raise this with the maintainers.
+- Communicate thoughtfully and constructively.
+- Avoid harmful behaviors that hinder productive discussions.
+- Report issues to the maintainers for resolution.
 
 ## Acknowledgements
 
-This document is based on the
-[Go Code of Conduct](https://web.archive.org/web/20180403092005/https://golang.org/conduct),
-which in turn has parts derived from the Code of Conduct documents of the Django,
-FreeBSD, and Rust projects.
+This Code of Conduct draws inspiration from the codes of conduct of various
+projects, including Django, FreeBSD, Rust, and Go.
 
-This documented is licensed under the Creative Commons Attribution 3.0 License.
+This document is licensed under the Creative Commons Attribution 3.0 License.

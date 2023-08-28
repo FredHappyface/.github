@@ -1,33 +1,37 @@
 ========================= Experimental =========================
 
-**This project is currently experimental**
+**This project is currently in an experimental stage.**
 
-## What this means
+## What This Means
 
-- This repository behaves as any other public repository on GitHub
-- Contributions are unlikely to be accepted during this stage
-- Issues will likely be ignored during this stage
-- This repository could be removed with little to no notice
+- This repository operates like any other public GitHub repository.
+- Contributions are unlikely to be accepted during this stage.
+- Issues may not receive immediate attention.
+- This repository could be removed without extensive notice.
 
 ## Why?
 
-At this point in time the repo is at the proof-of-concept stage and may be
-deemed to be useless or more challenging to maintain than is worth my time.
-Contributions are likely not accepted largely due to the fact that this may
-take time and there is a reasonable risk of removal - I don't wish to waste
-your time.
+At this juncture, the repository is in the proof-of-concept phase and might be
+considered less valuable or more challenging to maintain than warranted by my
+available time. The decision to not accept contributions is primarily rooted in
+the understanding that this could require significant time investment, coupled
+with the potential risk of removal. I aim to respect your time and efforts.
 
-## What if you find it useful?
+## What If You Find It Useful?
 
-I would urge you to clone/ fork the repo in case it gets removed
+If you find value in this project, I encourage you to clone or fork the
+repository as a safeguard against potential removal.
 
-## What this means in the future
+## What This Means for the Future
 
-One of two things will happen
-- The repository will be deleted (in some cases a notice may be added to the
-readme outlining this for a few days before removal)
-- The repository is deemed worth the time and effort and moves to regular
-support status (find out more
-https://github.com/FredHappyface/.github/blob/master/SUPPORT.md)
+One of two scenarios awaits:
+
+1. The repository will be deleted. In some cases, a notice may be added to the
+   readme a few days before removal.
+2. If the project proves its worth and garners sustained interest, it might
+   transition to regular support status. Learn more about support [here](https://github.com/FredHappyface/.github/blob/master/SUPPORT.md).
+
+Your understanding and potential contributions during this experimental phase
+are greatly appreciated.
 
 ========================= Experimental =========================

@@ -8,28 +8,21 @@ assignees: 'fredhappyface'
 ---
 
 <!--
-# Issue template
+We're here to help! Please feel free to ask your question below.
 
-Thanks for opening an issue. Be sure to fill in the template
+Instructions: Ask your question, please provide as much relevant detail as
+possible to help us understand your query. You can delete any unused headers and
+feel free to add any additional information that might be relevant to your
+specific project.
 
-## Step one - Check for duplicated issues
-
-Have you searched for this issue or similar issue? Be sure to searched closed
-issues too. If you find an issue and have anything to add, please do
-
-## Step two - Create a suitable title
-
-Aim to provide a descriptive title. eg. a title such as 'Bug: searching foo
-causes crash' would be preferred to 'crash'
-
-Start the title with the type of issue: Question|Bug|Feature
-
-## Step three - Fill out the template below
-
-Delete unused headers
-
+Thank you for reaching out, and we'll do our best to provide you with a helpful answer!
 -->
 
-## Question
+## Before You Begin
 
-- [ ] I have read the comment above and have completed each step
+Before proceeding, please make sure to follow these steps:
+
+- [ ] I have checked for similar questions in the project's issue tracker to avoid duplicates.
+- [ ] I have searched existing issues to see if this question has been asked before.
+
+## Your Question

@@ -1,8 +1,7 @@
 <!-- omit in toc -->
 # Development Info
 
-This document acts as a guide to various processes regarding projects such as
-the versioning scheme and the programming styles used.
+This document serves as a comprehensive guide to various aspects of project development, including versioning, style guidelines, and recommended practices.
 
 - [Versioning](#versioning)
 - [Style Guides](#style-guides)
@@ -18,90 +17,115 @@ the versioning scheme and the programming styles used.
 
 [![CalVer](https://img.shields.io/badge/calver-YYYY.Minor.Micro-22bfda.svg?style=for-the-badge)](https://pypi.org/project/[project-name]/)
 
-Versioning is most often done as follows:
+Versioning is a pivotal aspect of our project's evolution. Our versioning scheme
+adopts the format:
 
 ```none
 FullYear.Version.BugFix
 ```
 
-Inspiration is taken from Intellij versioning, calendar versioning and semantic
-versioning and aims to combine the advantages of each. Those being:
+This approach draws inspiration from Intellij versioning, calendar versioning,
+and semantic versioning. Combining their strengths:
 
-- The year gives an indication of if the project is still actively developed
-- Multiple versions each year
-- Bugfixes are not new versions
+- Year Indication: Actively indicates ongoing development.
+- Frequent Releases: Multiple versions within a year.
+- Bugfix Clarity: Bugfixes do not result in new version increments.
 
-Notable projects using this scheme (according to https://calver.org/users.html):
+Prominent projects adhering to similar schemes include:
 
 - Unity
 - PyCharm
 - Spring Cloud
 
-A few other popular projects such as Python PIP use a slightly different
-version of this with the short year.
+Note that slight variations, like the short year format, are present in projects
+like Python PIP.
 
 ## Style Guides
 
 ### General
 
-The official style guide for each language should be followed whenever possible.
-With the following exceptions:
+While our primary guide is the official style guide of each language, exceptions
+are necessary for cohesion. Notable modifications include:
 
-- **Indentation** One hard tab (`\t`) is used for indentation with a size of 4
-  where possible.
-- **Maximum Line Length** A maximum line length of 100 should be used where
-  possible. An example of a case where this may not be possible would be where
-  there is a URL that extends 100 characters.
+- **Indentation**: Utilize a single hard tab (`\t`) for a 4-character indentation
+  wherever possible.
+- **Maximum Line Length**: Opt for a maximum line length of 100 characters whenever
+  feasible. Exceptions may arise, such as with URLs exceeding 100 characters.
 
 ### Python
 
-Follow https://www.python.org/dev/peps/pep-0008/ with the modifications defined in [General](#general) plus:
+Comply with https://www.python.org/dev/peps/pep-0008/ while integrating the
+modifications mentioned in [General](#general). Additionally:
 
-- **Variable Names** should be in camel case. e.g. `camelCase`
-- **Function Names** should be in camel case. e.g. `camelCase`
-- **Argument Names** should be in camel case. e.g. `camelCase`
-- **Comments/ Documentation** must be in the Google DocString style
+- **Variable, Function, and Argument Names**: Employ camel case (e.g., `camelCase`).
+- **Comments/Documentation**: Utilize the Google DocString style.
 
 #### Pre-commit (Python)
 
-To enforce the python styleguide, and perform a series of useful checks. The following
-`.pre-commit-config.yaml` can be used. Dont forget to add the below configuration to
-the `pyproject.toml`
+To ensure adherence to the Python style guide and perform valuable checks, employ the following `.pre-commit-config.yaml`:
 
 ```yaml
 repos:
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.0.1
-    hooks:
-      - id: trailing-whitespace
-      - id: end-of-file-fixer
-
   - repo: https://github.com/FHPythonUtils/Blackt
-    rev: '2021'
+    rev: '2022.0.3'
     hooks:
       - id: blackt
 
   - repo: https://github.com/pycqa/isort
-    rev: 5.9.3
+    rev: 5.12.0
     hooks:
       - id: isort
 
   - repo: https://github.com/pycqa/pylint
-    rev: v2.11.1
+    rev: v3.0.0a6
     hooks:
       - id: pylint
-        args: [--disable=import-error,--jobs=0, --fail-under=9.8, --ignore-patterns=test.*?py]
+        exclude: "tests/"
+        args: [--disable=import-error,--jobs=0]
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: "tests/"
+      - id: end-of-file-fixer
+        exclude: "tests/"
 
   - repo: https://github.com/asottile/pyupgrade
-    rev: v2.29.0
+    rev: v3.7.0
     hooks:
       - id: pyupgrade
-        args: [--py37-plus]
+        args: [--py38-plus]
+  - repo: https://github.com/boidolr/pre-commit-images
+    rev: v1.2.1
+    hooks:
+      - id: optimize-avif
+        exclude: "tests/"
+      - id: optimize-jpg
+        exclude: "tests/"
+      - id: optimize-png
+        exclude: "tests/"
+      - id: optimize-svg
+        exclude: "tests/"
+      - id: optimize-webp
+        exclude: "tests/"
 ```
 
-Use the following configuration (add to `pyproject.toml`):
+Use the provided configuration snippet in your `pyproject.toml`:
 
 ```toml
+[tool.black]
+line-length = 100
+target-version = ["py38"]
+
+[tool.isort]
+profile = "black"
+indent = "Tab"
+
+[tool.pydocstyle]
+convention = "google"
+ignore = "D205,D415"
+
 [tool.pylint.basic]
 argument-naming-style = "camelCase"
 attr-naming-style = "camelCase"
@@ -113,43 +137,30 @@ variable-naming-style = "camelCase"
 indent-string = "\t"
 
 [tool.pylint.master]
-ignore-patterns = "test_.*?py"
+ignore-paths = ["tests"]
 
 [tool.pylint.messages_control]
 enable = ["F", "E", "W", "R", "C"]
-disable = [
-	"pointless-string-statement",
-	"superfluous-parens",
-	"bad-continuation"
-]
+disable = ["pointless-string-statement", "superfluous-parens"]
 
-[tool.black]
-line-length = 100
-target-version = ["py37"]
-
-[tool.isort]
-profile = "black"
-indent = "Tab"
-
-[tool.pydocstyle]
-convention = "google"
-ignore = "D205,D415"
 ```
 
 ### Kotlin
 
-Follow https://kotlinlang.org/docs/coding-conventions.html with the modifications defined in [General](#general)
+Align with https://kotlinlang.org/docs/coding-conventions.html while factoring
+in the guidelines established in [General](#general).
 
 #### Pre-commit (Kotlin)
 
-coming soon
+Coming soon
 
 ### Java
 
-Follow https://google.github.io/styleguide/javaguide.html with the modifications defined in [General](#general) plus:
+Adopt https://google.github.io/styleguide/javaguide.html while incorporating the
+adjustments outlined in [General](#general). Additionally:
 
-- **File Names** should be in pascal case. e.g. `PascalCase` (defined https://google.github.io/styleguide/javaguide.html#s2.1-file-name)
+- **File Names**: Embrace pascal case (e.g., `PascalCase`).
 
 #### Pre-commit (Java)
 
-coming soon
+Coming soon

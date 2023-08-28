@@ -7,43 +7,58 @@ assignees: 'fredhappyface'
 ---
 
 <!--
-# Issue template
+Thank you for taking the time to report an issue. Your feedback is valuable in
+improving our project. Please fill out the following details to help us
+understand and address the problem you're facing.
 
-Thanks for opening an issue. Be sure to fill in the template
+By providing this information, you help us understand the context in which the
+issue is occurring.
 
-## Step one - Check for duplicated issues
+Instructions: Fill in the requested details. You can delete any unused headers
+and feel free to add any additional information that might be relevant to your
+specific project.
 
-Have you searched for this issue or similar issue? Be sure to searched closed
-issues too. If you find an issue and have anything to add, please do
+Once you've filled out the necessary information, feel free to submit the issue,
+and we'll work on addressing it as soon as possible.
 
-## Step two - Create a suitable title
-
-Aim to provide a descriptive title. eg. a title such as 'Bug: searching foo
-causes crash' would be preferred to 'crash'
-
-Start the title with the type of issue: Question|Bug|Feature
-
-## Step three - Fill out the template below
-
-Delete unused headers
-
+Thank you for contributing to the project!
 -->
 
-## Bug
+## Before You Begin
 
-- [ ] I have read the comment above and have completed each step
-- [ ] I have filled out the system info
-- [ ] I have described the bug, filled in the expected outcome and the actual
-outcome including screenshots where appropriate
+Before proceeding, please make sure to follow these steps:
 
-### System info
+- [ ] I have checked for similar issues in the project's issue tracker.
+- [ ] I have searched closed issues to see if a similar problem was reported
+  before.
 
-- OS: <!-- Do uname -a if on linux -->
-- Browser: <!-- If applicable -->
-- Version:
+## Issue Details
 
-### Describe the bug
+Start by creating a descriptive title for the issue. This helps us understand
+the problem quickly.
 
-### Expected outcome
+### Description
 
-### Actual outcome
+Explain the issue you're facing in as much detail as possible. Include any
+relevant information that can help us reproduce the problem.
+
+### Expected Behavior
+
+Describe what you expected to happen when using the project (e.g., the app,
+package, or program).
+
+### Actual Behavior
+
+Explain what actually happened, including any error messages, crashes, or
+unexpected behavior. Screenshots are helpful if applicable.
+
+## System Information
+
+Please provide the following additional information about your system or
+environment:
+
+- Operating System (OS):
+- OS Version:
+- Browser (if applicable):
+- Browser Version (if applicable):
+- Project Version (if applicable):

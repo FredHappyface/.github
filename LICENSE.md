@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2020 Kieran BW
+Copyright (c) 2023 Fredhappyface (Kieran W)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

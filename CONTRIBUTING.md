@@ -1,41 +1,38 @@
 <!-- omit in toc -->
-# How to contribute
+# How to Contribute
 
-- [Did you find a bug?](#did-you-find-a-bug)
-- [Did you write a patch that fixes a bug?](#did-you-write-a-patch-that-fixes-a-bug)
-- [Did you fix whitespace, format code, or make a purely cosmetic patch?](#did-you-fix-whitespace-format-code-or-make-a-purely-cosmetic-patch)
-- [Do you intend to add a new feature or change an existing one?](#do-you-intend-to-add-a-new-feature-or-change-an-existing-one)
-- [Do you have questions about the source code?](#do-you-have-questions-about-the-source-code)
+Welcome to our project! Your contributions are valuable and help improve the
+project for everyone. Below, you'll find guidelines for various types of contributions.
 
-## Did you find a bug?
+## Found a Bug?
 
-- Ensure the bug was not already reported by searching on GitHub under Issues
-- If you're unable to find an open issue addressing the problem, open a new one.
-Be sure to include a title and clear description, as much relevant information
-as possible, and a code sample or an executable test case demonstrating the
-expected behaviour that is not occurring.
+- Check if the bug has been reported by searching existing Issues.
+- If not found, open a new Issue with a descriptive title and clear description.
+- Include relevant information and, if possible, a code sample or test case.
 
-## Did you write a patch that fixes a bug?
+## Fixed a Bug?
 
-- Open a new GitHub pull request with the patch.
-- Ensure the PR description clearly describes the problem and solution. Include
-the relevant issue number if applicable.
+- Great! Open a new Pull Request (PR) on GitHub with your fix.
+- Describe the problem and solution in the PR description, referencing the
+  relevant Issue if applicable.
 
-## Did you fix whitespace, format code, or make a purely cosmetic patch?
+## Cosmetic Changes?
 
-Changes that are cosmetic in nature and do not add anything substantial to the
-readability, stability, functionality, or testability of a project are likely
-not to be accepted.
+Cosmetic changes like whitespace or formatting adjustments are appreciated, but
+substantial changes that improve readability, stability, functionality, or
+testability are preferred.
 
-## Do you intend to add a new feature or change an existing one?
+## Adding a New Feature or Making Changes?
 
-- Open an issue on GitHub or go ahead and submit a pull request.
+- For new features or changes, open an Issue to discuss your proposal.
+- Alternatively, you can submit a PR directly if you're confident about the change.
 
-## Do you have questions about the source code?
+## Have Questions?
 
-- Feel free to open an issue. Please note that they are mainly intended for
-bugs and fixes, and these will be prioritized.
+- If you have questions about the source code, feel free to open an Issue.
+- Please note that Issues are mainly for bugs and fixes, but we'll do our best to
+  assist you.
 
-Thank you! :heart: :heart: :heart:
+Your contributions make a difference! Thank you for being a part of the project. :heart:
 
 FredHappyface

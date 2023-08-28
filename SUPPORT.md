@@ -1,54 +1,45 @@
 <!-- omit in toc -->
 # Support
 
-Hello!
+Hello there!
 
-Thank you for using this project, I hope it is of use to you. Please be aware
-that those involved with the project often do so for fun along with other
-commitments (such as work, family, etc) and you are therefore not entitled
-to free customer service (that is not to say that contributions/ issues
-and questions are not welcome - more reminding you that project maintainers are
-well within their rights to prioritize other issues).
+Thank you for choosing to be a part of this project. Your interest and engagement are greatly appreciated. I'd like to share some insights into how we manage support and development.
+
+Please keep in mind that the folks working on this project are enthusiasts with various commitments such as work, family, and other passions. While we're thrilled to have you onboard, it's essential to note that we do not provide traditional customer service. Instead, we aim to foster a collaborative community where questions, contributions, and issues are welcomed.
 
 - [Issues](#issues)
-	- [Questions, Bug Reports and Feature Requests](#questions-bug-reports-and-feature-requests)
-- [Contributions - i.e. Supporting Development](#contributions---ie-supporting-development)
+	- [Questions, Bug Reports, and Feature Requests](#questions-bug-reports-and-feature-requests)
+- [Contributions - Supporting Development](#contributions---supporting-development)
 - [Support Process](#support-process)
-	- [Experimental](#experimental)
-		- [What this means](#what-this-means)
-		- [Why?](#why)
-		- [What if you find it useful?](#what-if-you-find-it-useful)
-		- [What this means in the future](#what-this-means-in-the-future)
+	- [Experimental Stage](#experimental-stage)
+		- [What to Expect](#what-to-expect)
+		- [Why We Have This Stage](#why-we-have-this-stage)
+		- [How to Handle This Phase](#how-to-handle-this-phase)
+		- [Looking Ahead](#looking-ahead)
 	- [Regular Support](#regular-support)
-		- [What this means](#what-this-means-1)
-		- [What this means in the future](#what-this-means-in-the-future-1)
-		- [Reduce the chance of a project being archived](#reduce-the-chance-of-a-project-being-archived)
-	- [Archived](#archived)
-		- [What this means now](#what-this-means-now)
-		- [What this means in the future](#what-this-means-in-the-future-2)
+		- [What to Expect](#what-to-expect-1)
+		- [Future Outlook](#future-outlook)
+		- [Let's Keep It Going](#lets-keep-it-going)
+	- [Archived Stage](#archived-stage)
+		- [What to Expect](#what-to-expect-2)
+		- [Future Plans](#future-plans)
 - [Versioning](#versioning)
 
 ## Issues
 
-### Questions, Bug Reports and Feature Requests
+### Questions, Bug Reports, and Feature Requests
 
-Please see https://github.com/FredHappyface/.github/blob/master/ISSUE_TEMPLATE.md
-for more information on how best to structure any issues. Please be sure to
-read through existing issues before creating your own and provide enough
-information, issues like "it doesn't work" will be closed.
+Please take a moment to check our [issue templates](https://github.com/FredHappyface/.github/blob/master/ISSUE_TEMPLATE/). It offers guidance on how to structure your questions, reports, or feature requests effectively. Remember, detailed descriptions and context help us understand and address your needs better. Issues like "it doesn't work" can be quite challenging to tackle, so a bit more detail goes a long way!
 
-## Contributions - i.e. Supporting Development
+## Contributions - Supporting Development
 
-Contributions are certainly welcome. Please be aware that they are not
-guaranteed to be accepted. Be sure to open an issue asking if the pull request
-would be accepted to avoid/ reduce the frustration that may be caused in the
-case of putting in significant time and effort for a contribution not to be
-accepted.
-See [CONTRIBUTING.md](/CONTRIBUTING.md) on how to contribute.
+Contributions are a fantastic way to enhance our project, and we genuinely appreciate your efforts. While we can't promise that every contribution will be accepted, we're always excited to see your ideas. If you're unsure about a particular contribution, feel free to start by opening an issue to discuss it. This way, we can collaborate effectively and avoid any disappointments.
+
+For detailed information on how to contribute, check out our [CONTRIBUTING.md](/CONTRIBUTING.md) guide.
 
 ## Support Process
 
-Some projects may start at an experimental stage (see below for more information)
+Our support journey comprises different stages that reflect the project's state and level of readiness.
 
 ```none
 Experimental -> Regular Support -> Archived -> Deleted
@@ -67,98 +58,77 @@ Regular Support -> Archived -> Deleted
                             -> Regular Support (Very Unlikely)
 ```
 
-### Experimental
+### Experimental Stage
 
-This can be best described as the alpha stage of a project and there will be
-**Experimental** quite prominently displayed. Some projects may skip this
-completely, it depends upon the size of the project and if I deem it to be
-ready for public consumption. In the case of a project being experimental,
-consider the following
+Consider this stage as the project's alpha phase, where we're fine-tuning things and ironing out the creases. You'll spot the **Experimental** tag, indicating its early days. Here's what you should know:
 
-#### What this means
+#### What to Expect
 
-- This repository behaves as any other public repository on GitHub
-- Contributions are unlikely to be accepted during this stage
-- Issues will likely be ignored during this stage
-- This repository could be removed with little to no notice
+- The repository functions just like any other GitHub public repository.
+- Contributions might not be accepted during this phase.
+- Issues might receive limited attention.
+- There's a possibility of the repository being removed with short notice.
 
-#### Why?
+#### Why We Have This Stage
 
-At this point in time the repo is at the proof-of-concept stage and may be
-deemed to be useless or more challenging to maintain than is worth my time.
-Contributions are likely not accepted largely due to the fact that this may
-take time and there is a reasonable risk of removal - I don't wish to waste
-your time.
+During the experimental phase, the project is in its proof-of-concept stage. Sometimes, it might not align with our goals or become challenging to maintain effectively. Contributions aren't always accepted, primarily because of the potential risk of removal. Your time is valuable.
 
-#### What if you find it useful?
+#### How to Handle This Phase
 
-I would urge you to clone/ fork the repo in case it gets removed
+If you find the experimental project useful, I recommend cloning or forking it to ensure you have a copy.
 
-#### What this means in the future
+#### Looking Ahead
 
-One of two things will happen
+Two paths lie ahead:
 
-- The repository will be deleted (in some cases a notice may be added to the
-readme outlining this for a few days before removal)
-- The repository is deemed worth the time and effort and moves to regular
-support status (find out more
-https://github.com/FredHappyface/.github/blob/master/SUPPORT.md)
+- The repository might be deleted (with a possible notice in the readme).
+- The repository proves its worth and transitions to regular support (details [here](https://github.com/FredHappyface/.github/blob/master/SUPPORT.md)).
 
 ### Regular Support
 
-This is best described as the beta and maintenance stages of a project
+Welcome to the beta and maintenance stages of our project!
 
-#### What this means
+#### What to Expect
 
-- The project behaves exactly as one may expect. At this stage contributions are
-very welcome.
+- The project operates as you'd anticipate.
+- Contributions are welcome during this phase.
 
-#### What this means in the future
+#### Future Outlook
 
-One of two things will happen:
+There are two possibilities:
 
-- The repository will continue to exist in this state (Yay!)
-- The repository reaches the end of support and moves to an archived state
+- The repository continues in this state.
+- The repository reaches the end of support and moves to an archived state.
 
-#### Reduce the chance of a project being archived
+#### Let's Keep It Going
 
-Projects that seemingly have little interest are most likely to be archived. I
-use a few mechanisms to determine this (each with their merits and drawbacks)
+To minimize the chance of a project being archived, engagement matters. We consider various factors, including GitHub stars, downloads, reviews, and project traffic. If you find a project useful, engaging with it boosts its longevity.
 
-- Number of GitHub stars and forks
-- Number of downloads/ installs (for instance pypi.org installs)
-- Reviews
-- Project traffic as calculated by Python.ActiveGithub
+### Archived Stage
 
-This is because I tend to have lots of project ideas (again some are more useful
-than others) and limited time to maintain these.
+This stage occurs when regular maintenance ends for a project (not experimental).
 
-Essentially, if you do find a project to be useful, engage with it in some
-measurable way and it will stick around for a good long time.
+#### What to Expect
 
-### Archived
+- The repository, issues, pull requests, labels, milestones, projects, wiki, releases, commits, tags, branches, reactions, and comments become read-only.
+- The repository can still be forked and cloned, and the license still applies.
 
-This stage is reached when maintenance ceases on regular projects (not
-experimental)
+#### Future Plans
 
-#### What this means now
+In time:
 
-- The repository, issues, pull requests, labels, milestones, projects, wiki,
-releases, commits, tags, branches, reactions and comments are read-only.
-- The repository can still be forked and cloned - The License still applies.
-
-#### What this means in the future
-
-- The repository is scheduled for deletion after three months
-- The repository will be unregistered from Codacy and CI/CD after one month
-- The repository may be un-archived (however, this is very unlikely)
+- The repository will be deleted after three months.
+- The repository will be unregistered from Codacy and CI/CD after one month.
+- Un-archiving the repository is unlikely, but not impossible.
 
 ## Versioning
 
-Versioning is most often done as follows:
+Our versioning approach typically follows:
 
 ```none
 FullYear.Version.BugFix
 ```
 
-See [RATIONALE](https://github.com/FredHappyface/.github/blob/master/RATIONALE.md) for more information
+For more insights, check out [DEVELOPMENT INFO](https://github.com/FredHappyface/.github/blob/master/DEVELOPMENT_INFO.md).
+
+Thank you for being a part of our journey. Your support is what makes this project come alive! 🌟

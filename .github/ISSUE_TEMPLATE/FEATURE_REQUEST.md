@@ -8,50 +8,47 @@ assignees: 'fredhappyface'
 ---
 
 <!--
-# Issue template
+We appreciate your interest in contributing to the improvement of our project.
+Please provide the details of the feature you're suggesting using the template
+below.
 
-Thanks for opening an issue. Be sure to fill in the template
+Instructions: Fill in the requested details. You can delete any unused headers
+and feel free to add any additional information that might be relevant to your
+specific project.
 
-## Step one - Check for duplicated issues
-
-Have you searched for this issue or similar issue? Be sure to searched closed
-issues too. If you find an issue and have anything to add, please do
-
-## Step two - Create a suitable title
-
-Aim to provide a descriptive title. eg. a title such as 'Bug: searching foo
-causes crash' would be preferred to 'crash'
-
-Start the title with the type of issue: Question|Bug|Feature
-
-## Step three - Fill out the template below
-
-Delete unused headers
+Thank you for taking the time to contribute your ideas to the project. Your
+feedback helps us make improvements that benefit everyone!
 -->
 
-## Feature
+## Before You Begin
 
-- [ ] I have read the comment above and have completed each step
-- [ ] I have filled in each heading below
+Before proceeding, please make sure to follow these steps:
+
+- [ ] I have checked for similar feature requests in the project's issue tracker
+  to avoid duplicates.
+- [ ] I have searched existing issues to see if this feature has been discussed
+  before.
+
+## Feature Details
+
+Start by creating a clear and concise title for your feature request.
 
 ### Is your feature request related to a problem? Please describe
 
-<!--
-A clear and concise description of what the problem is. Ex. I'm always
-frustrated when [...]
--->
+Provide a brief description of the problem you've identified. This helps us
+understand the context and motivation behind your feature request.
 
 ### Describe the solution you'd like
 
-<!-- A clear and concise description of what you want to happen. -->
+Clearly describe the solution you have in mind. What specific functionality or
+improvement are you suggesting? Be as detailed as possible.
 
 ### Describe alternatives you've considered
 
-<!--
-A clear and concise description of any alternative solutions or features
-you've considered.
--->
+If you've thought of other ways to address the issue or implement the feature,
+please describe those alternatives here.
 
-### Additional context
+### Additional Context
 
-<!-- Add any other context or screenshots about the feature request here. -->
+Add any relevant context, information, or screenshots that can help us
+understand your feature request better.

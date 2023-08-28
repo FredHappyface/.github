@@ -1,51 +1,55 @@
-<!-- omit in TOC -->
-# .github
+Certainly! Here's the information formatted with paths as headings and descriptions as plain text:
 
-A repo containing the default community files for a project.
+## ARCHIVE.md
+A document describing the process and implications of archiving a project.
 
-## Community Files
+## CHANGELOG_TEMPLATE.md
+A template for documenting version changes and updates in the project.
 
-### Licence
+## CODE_OF_CONDUCT.md
+The code of conduct for the project, outlining expected behavior and interactions within the community.
 
-MIT License
-Copyright (c) FredHappyface
-(See the [LICENSE](/LICENSE.md) for more information.)
+## config.yml
+A configuration file for various settings related to the project's behavior, often used in automated workflows.
 
-### Changelog
+## CONTRIBUTING.md
+A guide for individuals interested in contributing to the project, explaining how they can get involved.
 
-See the [Changelog](/CHANGELOG.md) for more information.
+## DEVELOPMENT_INFO.md
+A document providing information about the development processes, versioning, and coding styles used in the project.
 
-### Code of Conduct
+## EXPERIMENTAL.md
+Information about the experimental stage of the project, including its purpose and what contributors can expect during this stage.
 
-Online communities include people from many backgrounds. The *Project*
-contributors are committed to providing a friendly, safe and welcoming
-environment for all. Please see the
-[Code of Conduct](https://github.com/FredHappyface/.github/blob/master/CODE_OF_CONDUCT.md)
-for more information.
+## LICENSE.md
+The license under which the project is distributed, outlining how the software can be used, modified, and distributed.
 
-### Contributing
+## RATIONALE.md
+An explanation of the rationale behind certain decisions, design choices, and approaches taken in the project.
 
-Contributions are welcome, please see the
-[Contributing Guidelines](https://github.com/FredHappyface/.github/blob/master/CONTRIBUTING.md)
-for more information.
+## stale.yml
+A configuration file for automating the process of marking and closing stale issues and pull requests.
 
-### Security
+## SUPPORT.md
+Documentation on how to obtain support for the project, including how to report issues and seek help.
 
-Thank you for improving the security of the project, please see the
-[Security Policy](https://github.com/FredHappyface/.github/blob/master/SECURITY.md)
-for more information.
+## .github/ISSUE_TEMPLATE/BUG_REPORT.md
+A template for reporting bugs in the project, providing guidelines on what information to include.
 
-### Support
+## .github/ISSUE_TEMPLATE/config.yml
+Configuration settings for issue templates.
 
-Thank you for using this project, I hope it is of use to you. Please be aware that
-those involved with the project often do so for fun along with other commitments
-(such as work, family, etc). Please see the
-[Support Policy](https://github.com/FredHappyface/.github/blob/master/SUPPORT.md)
-for more information.
+## .github/ISSUE_TEMPLATE/FEATURE_REQUEST.md
+A template for suggesting new features or enhancements for the project.
 
-### Rationale
+## .github/ISSUE_TEMPLATE/QUESTION.md
+A template for asking questions related to the project.
 
-The rationale acts as a guide to various processes regarding projects such as
-the versioning scheme and the programming styles used. Please see the
-[Rationale](https://github.com/FredHappyface/.github/blob/master/RATIONALE.md)
-for more information.
+## .github/ISSUE_TEMPLATE/SECURITY.md
+A template for reporting security vulnerabilities in the project.
+
+## .github/PULL_REQUEST_TEMPLATE/PULL_REQUEST.md
+A template for submitting pull requests to the project, providing guidelines on what information to include.
+
+## .github/SECURITY/SECURITY.md
+A document outlining the security procedures and policies for the project, including reporting security issues.
