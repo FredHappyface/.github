@@ -15,7 +15,7 @@ This document serves as a comprehensive guide to various aspects of project deve
 
 ## Versioning
 
-[![CalVer](https://img.shields.io/badge/calver-YYYY.Minor.Micro-22bfda.svg?style=for-the-badge)](https://pypi.org/project/[project-name]/)
+[![CalVer](https://img.shields.io/badge/calver-YYYY.Minor.Micro-22bfda.svg?style=for-the-badge&cacheSeconds=28800)](https://pypi.org/project/[project-name]/)
 
 Versioning is a pivotal aspect of our project's evolution. Our versioning scheme
 adopts the format:
